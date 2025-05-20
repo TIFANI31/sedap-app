@@ -23,9 +23,9 @@ const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Orders = lazy(() => import("./pages/Orders"));
 const Customers = lazy(() => import("./pages/Customers"));
 const UserList = lazy(() => import("./pages/UserList"));
-const Login = lazy(() => import("./pages/auth/Login"));
-const Register = lazy(() => import("./pages/auth/Register"));
-const Forgot = lazy(() => import("./pages/auth/Forgot"));
+const Login = lazy(() => import("./pages/Auth/Login"));
+const Register = lazy(() => import("./pages/Auth/Register"));
+const Forgot = lazy(() => import("./pages/Auth/Forgot"));
 
 function App() {
   return (
