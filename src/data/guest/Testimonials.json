@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Amanda Putri",
+    "review": "Hotel ini luar biasa! Pelayanannya ramah dan kamar sangat bersih.",
+    "avatar": "https://ui-avatars.com/api/?name=Amanda+Putri"
+  },
+  {
+    "id": "2",
+    "name": "Rizky Pratama",
+    "review": "Pemandangan lautnya menakjubkan, cocok untuk liburan keluarga.",
+    "avatar": "https://ui-avatars.com/api/?name=Rizky+Pratama"
+  },
+  {
+    "id": "3",
+    "name": "Dewi Anggraini",
+    "review": "Fasilitasnya lengkap dan nyaman. Saya pasti akan kembali lagi.",
+    "avatar": "https://ui-avatars.com/api/?name=Dewi+Anggraini"
+  },
+  {
+    "id": "4",
+    "name": "Budi Santoso",
+    "review": "Lokasi hotel strategis dan dekat tempat wisata favorit.",
+    "avatar": "https://ui-avatars.com/api/?name=Budi+Santoso"
+  },
+  {
+    "id": "5",
+    "name": "Lina Marlina",
+    "review": "Makanan di restoran hotel sangat enak. Recommended banget!",
+    "avatar": "https://ui-avatars.com/api/?name=Lina+Marlina"
+  },
+  {
+    "id": "6",
+    "name": "Fajar Nugroho",
+    "review": "Staf hotel sangat membantu dan profesional. Liburan jadi sempurna.",
+    "avatar": "https://ui-avatars.com/api/?name=Fajar+Nugroho"
+  }
+]

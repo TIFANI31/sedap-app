@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "location": "Vietnam Sea Beach",
+    "name": "Luxury Hotel and Resort",
+    "price": "$200 Per Night",
+    "rating": 4.5,
+    "image": "/img/4.jpg",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "location": "Paris, France",
+    "name": "The Dreamy Mountain Hotel & Resort.",
+    "price": "$250 Per Night",
+    "rating": 4.5,
+    "image": "/img/1.jpg"
+  },
+  {
+    "id": 3,
+    "location": "Vaadhoo, Maldives",
+    "name": "Sea Of Stars Resident In Maldives",
+    "price": "$200 Per Night",
+    "rating": 4.5,
+    "image": "/img/2.jpg"
+  },
+  {
+    "id": 4,
+    "location": "Paris, France",
+    "name": "The Paris Grand Palace & Restaurant.",
+    "price": "$250 Per Night",
+    "rating": 4.5,
+    "image": "/img/3.jpg"
+  }
+]

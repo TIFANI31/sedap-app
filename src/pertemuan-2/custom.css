@@ -1,0 +1,170 @@
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header utama */
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 2px;
+    background: #ddd;
+    margin: 10px 0;
+}
+
+/* Greeting */
+small {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #888;
+    margin-top: 5px;
+}
+/* Kontainer About Us */
+.about-us-container {
+    max-width: 800px; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Pusatkan kontainer */
+    padding: 20px; /* Tambahkan padding */
+    font-family: Arial, sans-serif; /* Font yang digunakan */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+.about-us-image {
+    width: 100%; /* Gambar responsif */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 8px; /* Sudut melengkung */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+.about-us-description {
+    text-align: center; /* Pusatkan deskripsi */
+    margin-bottom: 20px; /* Jarak bawah */
+    font-size: 1.1em; /* Ukuran font */
+    color: #666; /* Warna teks */
+}
+
+.about-us-section {
+    margin-bottom: 20px; /* Tambahkan nilai untuk margin-bottom */
+}
+
+/* Styling untuk QnASection */
+.qna-card {
+    max-width: 700px; /* Lebar maksimum kontainer */
+    margin: 20px auto; /* Pusatkan kontainer */
+    background: #ffffff; /* Warna latar belakang */
+    padding: 20px; /* Tambahkan padding */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    text-align: center; /* Pusatkan teks */
+}
+
+.qna-image {
+    width: 100%; /* Gambar responsif */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 8px; /* Sudut melengkung */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Jarak bawah antar input */
+    text-align: left; /* Rata kiri untuk label */
+}
+
+.input-field, .textarea-field {
+    width: 96%; /* Lebar penuh */
+    padding: 10px; /* Padding dalam */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Sudut melengkung */
+    margin-top: 5px; /* Jarak atas */
+}
+
+.textarea-field {
+    height: 100px; /* Tinggi textarea */
+}
+
+.submit-button {
+    margin-top: 20px; /* Jarak atas */
+}
+
+.button {
+    padding: 10px 20px; /* Padding dalam */
+    background-color: #ec2424; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut melengkung */
+    cursor: pointer; /* Kursor menjadi pointer saat hover */
+    transition: background-color 0.3s; /* Transisi untuk efek hover */
+}
+
+.button:hover {
+    background-color: #c92020; /* Warna latar belakang saat hover */
+}
+
+/* Styling untuk ArtikelDetail */
+.artikel-image {
+    width: 100%; /* Gambar responsif */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 8px; /* Sudut melengkung */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+.artikel-detail {
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+.artikel-ingredients {
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+.artikel-steps {
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+.user-card {
+    margin-top: 20px; /* Jarak atas */
+    padding: 10px; /* Padding dalam */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Judul dan teks */
+h1 {
+    color: #ec2424; /* Warna judul */
+    text-align: center; /* Pusatkan judul */
+}
+
+h3 {
+    margin: 10px 0; /* Jarak atas dan bawah untuk h3 */
+}
+
+ul, ol {
+    margin-left: 5px; /* Jarak kiri untuk list */
+}
