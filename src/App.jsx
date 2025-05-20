@@ -56,7 +56,7 @@ function App() {
           <Route path="testimoni" element={<Testimoni />} />
         </Route>
 
-        {/* Catch-all route for 404 errors */}
+       
         <Route path="*" element={<ErrorPage code={404} />} />
       </Routes>
     </Suspense>
