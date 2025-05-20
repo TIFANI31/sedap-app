@@ -46,7 +46,7 @@ function App() {
           <Route path="forgot" element={<Forgot />} />
         </Route>
 
-        {/* Routes for GuestLayout */}
+        {/* Routes GuestLayout */}
         <Route path="/guest" element={<GuestLayout />}>
           <Route index element={<HomePage />} />
           <Route path="about" element={<About />} />
