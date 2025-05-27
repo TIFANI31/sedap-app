@@ -4,6 +4,7 @@ import "./assets/tailwind.css";
 import Loading from "./components/Loading";
 import ErrorPage from "./components/ErrorPage";
 
+
 // Importing guest components
 import Navbar from './components/guest/Navbar';
 import HeroSection from './components/guest/HeroSection';
@@ -16,6 +17,7 @@ import HomePage from "./pages/guest/HomePage";
 import ProductShowcase from "./components/guest/ProductShowcase";
 
 // Lazy imports for main layout, auth layout, and pages
+const ProductDetail = lazy(() => import("./pages/ProductDetail"))
 const GuestLayout = lazy(() => import("./layouts/GuestLayout"));
 const MainLayout = lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = lazy(() => import("./layouts/AuthLayout"));
@@ -26,6 +28,7 @@ const UserList = lazy(() => import("./pages/UserList"));
 const Login = lazy(() => import("./pages/Auth/Login"));
 const Register = lazy(() => import("./pages/Auth/Register"));
 const Forgot = lazy(() => import("./pages/Auth/Forgot"));
+const Products = lazy(() => import("./pages/Products"));  // Make sure this is imported
 
 function App() {
   return (
@@ -34,6 +37,8 @@ function App() {
         {/* All pages that use MainLayout */}
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Dashboard />} /> {/* "/" */}
+          <Route path="products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductDetail />} />
           <Route path="orders" element={<Orders />} />
           <Route path="customers" element={<Customers />} />
           <Route path="users" element={<UserList />} />
@@ -46,7 +51,7 @@ function App() {
           <Route path="forgot" element={<Forgot />} />
         </Route>
 
-        {/* Routes GuestLayout */}
+        {/* Routes for GuestLayout */}
         <Route path="/guest" element={<GuestLayout />}>
           <Route index element={<HomePage />} />
           <Route path="about" element={<About />} />
@@ -56,7 +61,6 @@ function App() {
           <Route path="testimoni" element={<Testimoni />} />
         </Route>
 
-       
         <Route path="*" element={<ErrorPage code={404} />} />
       </Routes>
     </Suspense>
