@@ -6,7 +6,8 @@ import {
   MdOutlineShop,
   MdOutlineShoppingCart,
   MdOutlinePerson,
-  MdErrorOutline
+  MdErrorOutline,
+  MdNote
   // BiUserCircle
 } from "react-icons/md";
 import { NavLink } from "react-router-dom";
@@ -58,6 +59,14 @@ export default function Sidebar() {
             <NavLink to="/Customers" className={menuClass}>
               <MdPeople className="mr-4 text-xl" /> {/* tetap pakai MdPeople */}
               Customers
+            </NavLink>
+          </li>
+
+            {/* Customers Menu */}
+          <li>
+            <NavLink to="/Note" className={menuClass}>
+              <MdNote className="mr-4 text-xl" /> 
+              Notes
             </NavLink>
           </li>
 

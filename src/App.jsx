@@ -15,6 +15,7 @@ import Testimoni from './components/guest/Testimoni';
 import HomePage from "./pages/guest/HomePage";
 import ProductShowcase from "./components/guest/ProductShowcase";
 
+
 // Lazy imports for main layout, auth layout, and pages
 const GuestLayout = lazy(() => import("./layouts/GuestLayout"));
 const MainLayout = lazy(() => import("./layouts/MainLayout"));
@@ -26,6 +27,7 @@ const UserList = lazy(() => import("./pages/UserList"));
 const Login = lazy(() => import("./pages/Auth/Login"));
 const Register = lazy(() => import("./pages/Auth/Register"));
 const Forgot = lazy(() => import("./pages/Auth/Forgot"));
+const Note = lazy(() => import("./components/Note"));
 
 function App() {
   return (
@@ -37,6 +39,7 @@ function App() {
           <Route path="orders" element={<Orders />} />
           <Route path="customers" element={<Customers />} />
           <Route path="users" element={<UserList />} />
+           <Route path="note" element={<Note />} />
         </Route>
 
         {/* Routes for AuthLayout */}
