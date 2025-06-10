@@ -12,6 +12,7 @@ const headers = {
 export const notesAPI = {
   /**
    * Ambil semua catatan
+   * @returns {Promise<Array>}
    */
   async fetchNotes() {
     const res = await axios.get(API_URL, { headers });
@@ -21,6 +22,7 @@ export const notesAPI = {
   /**
    * Tambahkan catatan baru
    * @param {Object} data { title: string, content: string }
+   * @returns {Promise<Object>}
    */
   async createNote(data) {
     const res = await axios.post(API_URL, data, { headers });
@@ -30,6 +32,7 @@ export const notesAPI = {
   /**
    * Hapus catatan berdasarkan ID
    * @param {number|string} id
+   * @returns {Promise<Object>}
    */
   async deleteNote(id) {
     const res = await axios.delete(`${API_URL}?id=eq.${id}`, { headers });
@@ -40,6 +43,7 @@ export const notesAPI = {
    * Update catatan berdasarkan ID
    * @param {number|string} id
    * @param {Object} data { title: string, content: string }
+   * @returns {Promise<Object>}
    */
   async update(id, data) {
     const res = await axios.patch(`${API_URL}?id=eq.${id}`, data, { headers });
